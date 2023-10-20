@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --PrimaryColor: #00b7ff;
+    --SecondaryColor: #6c757d;
+}
+.btn-container .btn{
+    font-size: 25px;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    margin: 20px;
+}
+.PrimaryBtn {
+    background-color: var(--PrimaryColor);
+}
+.SecondaryBtn {
+    background-color: var(--SecondaryColor);
+}
